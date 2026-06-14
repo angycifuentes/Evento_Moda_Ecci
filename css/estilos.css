@@ -1,0 +1,34 @@
+/* ==========================================
+   COLOR DE FONDO Y ARMONÍA GLOBAL
+   ========================================== */
+
+body {
+    /* Un tono sutil, limpio y moderno para el fondo de todo el sitio */
+    background-color: #d3d8f5 !important;
+    
+    /* Asegura que el texto base tenga un contraste suave pero legible */
+    color: #34495e !important;
+    
+    /* Transición suave por si luego añades cambios de tema */
+    transition: background-color 0.3s ease;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Le damos un color de fondo blanco impecable a las tarjetas y al acordeón 
+   para que resalten sobre el nuevo fondo de la página */
+.card, .accordion-item {
+    background-color: #ffffff !important;
+    border: 1px solid #10813b !important;
+}
+
+/* Opcional: Si quieres un toque sutil de color de fondo en la sección de evidencias */
+.bg-light {
+    background-color: #eaeded !important;
+}
